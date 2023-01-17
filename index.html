@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soligon</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div><i class="soligon">soligon</i></div>
+    <div>
+      <img src="images/icon-hamburger.svg" alt="menu" class="menu hidden">
+      <form action="" class="form">
+        <img src="images/icon-close.svg" alt="close" class="close hidden">
+        <input type="text" name="user-name" id="user-name" class="input-username" placeholder="user" />
+        <div class="middle">
+          <i class="fa fa-eye"></i>
+          <input type="password" name="password" id="password" class="password" placeholder="pin" />
+        </div>
+
+        <button class="button-log-in">
+          <img src="images/icon-arrow.svg" alt="arrow-icon" />
+        </button>
+      </form>
+    </div>
+  </nav>
+  <div class="body">
+    <main>
+      <h1 class="welcome"></h1>
+      <p class="date"></p>
+      <div class="box">
+        <div class="My-Profile">My Profile</div>
+        <div class="my-score-div">My scores</div>
+
+        <div class="my-bank">MySoligon Bank</div>
+      </div>
+
+      <div class="profile hidden">
+        <div class="first-profile">
+          <img src="images/profile-picture-ous.jpeg" alt="profile-picture" class="profile-image" />
+          <h2 class="fullname">Student name</h2>
+          <span>Student</span>
+          <div>
+            <button>Change password</button> <button>Document</button>
+          </div>
+        </div>
+
+        <div class="detailed-profile">
+          <div>
+            <h3>Registration Number</h3>
+            <p>firstname</p>
+          </div>
+          <div class="names first-name">
+            <h3 class="">First Name</h3>
+            <p>name</p>
+          </div>
+          <div>
+            <h3>Middle Name</h3>
+            <p>name</p>
+          </div>
+          <div>
+            <h3>Last Name</h3>
+            <p>name</p>
+          </div>
+
+          <div>
+            <h3>Mobile Number</h3>
+            <p>Number</p>
+          </div>
+
+          <div>
+            <h3>State of Origin</h3>
+            <p>state</p>
+          </div>
+          <div>
+            <h3>Local Government</h3>
+            <p>lga</p>
+          </div>
+          <div>
+            <h3>Gender</h3>
+            <p>gender</p>
+          </div>
+          <div>
+            <h3>Date of birth</h3>
+            <p>DOB</p>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p></p>
+          </div>
+          <div>
+            <h3>Contact address:</h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="scores-div">
+      <div class="score-display hidden">
+        <p class="soligon-process">Soligon Processing System</p>
+        <p class="second-heading">My scores</p>
+        <p class="third-heading">My scores details...</p>
+
+        <div class="detailed-score">
+          <div class="score-profile">
+            <div>
+              <p>Name:</p>
+            </div>
+            <div>
+              <p>Reg Number:</p>
+            </div>
+          </div>
+
+          <table>
+            <tr>
+              <th>Subject</th>
+              <th>Score</th>
+            </tr>
+            <div class="score-row">
+              <tr>
+                <td class="subject">Use Of English</td>
+                <td class="score">00</td>
+              </tr>
+              <tr>
+                <td class="subject">Use Of English</td>
+                <td class="score">00</td>
+              </tr>
+              <tr>
+                <td class="subject">Use Of English</td>
+                <td class="score">00</td>
+              </tr>
+              <tr>
+                <td class="subject">Use Of English</td>
+                <td class="score">00</td>
+              </tr>
+            </div>
+          </table>
+          <p class="total">Total Score:</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="my-bank-div hidden">
+      <div class="header">
+        <h1>Soligon bank</h1>
+        <p class="bank-welcome">Welome to your bank, name</p>
+      </div>
+
+      <div class="balance-div">
+        <div>
+          <p>Current School balance</p>
+          <p>Date</p>
+        </div>
+        <span class="balance">$4.00</span>
+      </div>
+      <section class="bank-section">
+        <div class="movements-div">
+          <div class="movement-container">
+            <div class="movement movement-type-deposit">
+              <p class="deposit">1 deposit</p>
+              <p class="value">1300$</p>
+              <q> gfcdvs</q>
+            </div>
+
+            <div class="movement movement-type-withdraw">
+              <p class="withdraw">2 withdrawal</p>
+              <p class="value">1300$</p>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div><small>IN</small> <span class="income">1200$</span></div>
+            <div><small>OUT</small> <span class="outcome">790$</span></div>
+          </div>
+        </div>
+
+        <div class="money-options">
+          <form class="transfer-div">
+            <h2 class="bank-h2">Transfer money</h2>
+            <p class="pay">pay fees</p>
+            <div class="transfer-operation">
+              <div>
+                <input type="text" name="transfer" id="transfer-username" class="input-transfer-username" />
+                <p>Transfer to</p>
+              </div>
+
+              <div>
+                <input type="text" name="amount" id="transfer-amount" class="input-tranfer-amount" />
+                <p>Amount</p>
+              </div>
+              <button class="transfer-button"><i class="fa fa-arrow-right"></i></button>
+            </div>
+          </form>
+
+          <form class="request-div">
+            <h2 class="bank-h2">Request Loan</h2>
+            <p class="pay">unable to pay fees</p>
+            <input type="text" name="loan" id="loan" class="input-loan-amount" />
+            <button class="request-loan"><i class="fa fa-arrow-right"></i></button>
+          </form>
+
+          <form class="close-div">
+            <h2 class="bank-h2">Close Account</h2>
+            <div class="close-operation">
+              <div>
+                <input type="text" name="close-username" id="close-username" class="input-close-username" />
+                <p>confirm user</p>
+              </div>
+              <div>
+                <input type="text" name="close-pin" id="close-pin" class="input-close-pin" />
+                <p>confirm pin</p>
+              </div>
+
+              <button class="close-account"><i class="fa fa-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
